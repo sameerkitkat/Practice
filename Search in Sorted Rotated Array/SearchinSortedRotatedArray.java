@@ -36,10 +36,8 @@ class SearchinSortedRotatedArray{
         int number = 7;
         int left = 0, right = array.length-1;
         int mid = (left+right)/2;
-        System.out.println(mid);
         SearchinSortedRotatedArray searchinsortedroatedarray = new SearchinSortedRotatedArray();
         int pivot = searchinsortedroatedarray.findPivot(array, left, right);
-        System.out.println(pivot);
         if (pivot<mid){
             int index = searchinsortedroatedarray.binarySearch(array, number, pivot, right);
             System.out.println(index);
