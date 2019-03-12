@@ -16,7 +16,7 @@ class RemoveDuplicates {
     }
 
     public static void main(String[] args) {
-        int[] array = { 1, 1, 1, 2, 2, 3 ,3, 6,  6, 6};
+        int[] array = { 1, 1, 1, 2, 2, 3 ,3, 6, 6, 6};
         RemoveDuplicates removeduplicates = new RemoveDuplicates();
         int result_array = removeduplicates.removeDuplicates(array);
         for (int i = 0; i <= result_array; i++) {
