@@ -6,7 +6,7 @@ class SingleNumber{
     return arr[0];
 }
     public static void main(String[] args){
-        int[] array = {2,2,1};
+        int[] array = {4,1,2,1,2};
         SingleNumber singlenumber = new SingleNumber();
         int number = singlenumber.findSingleNumber(array);
         System.out.println("Single number is "+number);
