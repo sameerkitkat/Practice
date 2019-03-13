@@ -3,7 +3,7 @@ class SingleNumber{
         for (int i=1;i<arr.length;i++){
             arr[0] = arr[0] ^ arr[i];
         }
-    return arr[0];
+    return arr[0]; 
 }
     public static void main(String[] args){
         int[] array = {4,1,2,1,2};
